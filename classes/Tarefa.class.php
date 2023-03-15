@@ -1,8 +1,7 @@
 <?php
   class Tarefa extends Projeto
   {
-    
-    private $data_criacao;
+    private $data_criacao; 
     private $prioridade;
     private $status;
     private $projeto;
@@ -11,8 +10,8 @@
     //Método criador do programa
     public function __construct(
         $nome, $descricao, $prazo, $data_criacao, 
-        $prioridade, $status, Usuario $usuario, Projeto $projeto
-        )
+        $prioridade, $status, Usuario $usuario, Projeto $projeto 
+        )//O valor do parâmetro $usuario é do tipo Usuario(Classe Usuario), O valor do parâmetro $projeto é do tipo Projeto(Classe Projeto)  
     {
 
     }

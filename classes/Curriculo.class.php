@@ -17,7 +17,7 @@
     }
 
     public function editarCurriculo(Usuario $usuario, $nova_descricao, $nova_experiencia_profissional, 
-      $nova_formacao_academica, $nova_habilidades_tecnicas) //Aqui selecionamos todos os dados da Classe Curricúlo
+      $nova_formacao_academica, $nova_habilidades_tecnicas)
 		// Esse método vai editar o curriculo do usuário marcado como primeiro parâmetro, atribuindo os novos valores aos valores dos atributos do curriculo
     {
       

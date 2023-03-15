@@ -1,5 +1,5 @@
 <?php
-  class Usuario
+  class Usuario implements IUsuario
   {
       private $nome;
       private $cpf;
@@ -17,17 +17,17 @@
           
       }
       
-      public function setCurriculo(Curriculo $curriculo)
+      public function setCurriculo(Curriculo $curriculo) //O valor do parâmetro $curriculo é do tipo Curriculo(Classe Curriculo)
       {
         
       }
     
-      public function setTarefa($id, Tarefa $tarefa)
+      public function setTarefa($id, Tarefa $tarefa)//O valor do parâmetro $tarefa é do tipo Tarefa(Classe Tarefa)
       {
           
       }
 
-      public function setProjeto($id, Projeto $projeto)
+      public function setProjeto($id, Projeto $projeto)//O valor do parâmetro $projeto é do tipo Projeto(Classe Projeto)
       {
 
       }
